@@ -10,9 +10,9 @@ private:
     char groupNumber[10];
 
 public:
-    Student(); // Конструктор за замовчуванням
+    Student(); 
     Student(const char* name, double grade, const char* univ, const char* group);
-    ~Student(); // Деструктор
+    ~Student(); 
 
     void showInfo();
 
