@@ -14,7 +14,6 @@ private:
 public:
     Airplane(); 
     Airplane(const char* fNum, const char* dep, const char* dest, const char* mod, int total);
-
     void showInfo();
 
     bool sellTicket(int count);
